@@ -1,0 +1,149 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "firebase-tools@latest": {
+      "last_modified": "2024-12-21T22:31:51Z",
+      "resolved": "github:NixOS/nixpkgs/7e4a1594489d41bf8e16046b28e14a0e264c9baa#firebase-tools",
+      "source": "devbox-search",
+      "version": "13.29.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9qqlfzm1886n52qyw5cgh8nc3pb41bi9-firebase-tools-13.29.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9qqlfzm1886n52qyw5cgh8nc3pb41bi9-firebase-tools-13.29.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yci64hbqa0ix2an6xl8pnm570bjf81gh-firebase-tools-13.29.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yci64hbqa0ix2an6xl8pnm570bjf81gh-firebase-tools-13.29.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ap7714mkdl4avz5icccnyqqzaqw2h5f5-firebase-tools-13.29.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ap7714mkdl4avz5icccnyqqzaqw2h5f5-firebase-tools-13.29.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rqlm127fzif6m3ww3hhbazv85w2q3vcb-firebase-tools-13.29.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rqlm127fzif6m3ww3hhbazv85w2q3vcb-firebase-tools-13.29.1"
+        }
+      }
+    },
+    "nushell@0.100.0": {
+      "last_modified": "2024-12-23T21:10:33Z",
+      "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#nushell",
+      "source": "devbox-search",
+      "version": "0.100.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/grjdxy6s2fvq63ng0hf8h5nxh1jns67d-nushell-0.100.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/grjdxy6s2fvq63ng0hf8h5nxh1jns67d-nushell-0.100.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wci60j342asxjhb1s216r4y72jxx1vb9-nushell-0.100.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wci60j342asxjhb1s216r4y72jxx1vb9-nushell-0.100.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d9clqf9b211chcz8fscb6cbs66l93mx8-nushell-0.100.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d9clqf9b211chcz8fscb6cbs66l93mx8-nushell-0.100.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/azs3ndz6zngxgf8kvip7br6m3xjh0as6-nushell-0.100.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/azs3ndz6zngxgf8kvip7br6m3xjh0as6-nushell-0.100.0"
+        }
+      }
+    },
+    "temurin-bin-17@latest": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#temurin-bin-17",
+      "source": "devbox-search",
+      "version": "17.0.11",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2d6rfr7i5zk5w8zvfmd1r2l09pmzgz0c-temurin-bin-17.0.11",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2d6rfr7i5zk5w8zvfmd1r2l09pmzgz0c-temurin-bin-17.0.11"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xk5an6bvr31255wswn1xamx0lvsfn7pf-temurin-bin-17.0.11",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xk5an6bvr31255wswn1xamx0lvsfn7pf-temurin-bin-17.0.11"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/scinqaw1rmfddmmxprnym4ccn5k94c6l-temurin-bin-17.0.11",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/scinqaw1rmfddmmxprnym4ccn5k94c6l-temurin-bin-17.0.11"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8a3b40b63waavsyvdv1y822rv7lqm6kj-temurin-bin-17.0.11",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8a3b40b63waavsyvdv1y822rv7lqm6kj-temurin-bin-17.0.11"
+        }
+      }
+    }
+  }
+}
