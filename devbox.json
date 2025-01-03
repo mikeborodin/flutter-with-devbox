@@ -10,6 +10,7 @@
   "shell": {
     "scripts": {
       "format": "nu -c \"source shell.nu; dart format -l 120\"",
+      "fvm_install": "nu -c \"source shell.nu; fvm install\"",
       "test": "nu -c \"source shell.nu; flutter test\"",
       "analyze": "nu -c \"source shell.nu; flutter analyze\"",
       "build_ios": "nu -c \"source shell.nu; build_ios $1\"",
