@@ -1,6 +1,0 @@
-build:
-  stages:
-    - name: Build
-      steps:
-        - script: build.nu
-
