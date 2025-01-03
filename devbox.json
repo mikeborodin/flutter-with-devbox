@@ -9,12 +9,12 @@
   ],
   "shell": {
     "scripts": {
-      "format": "nu -c \"source ./shell.nu; dart format -l 120\"",
-      "test": "nu -c \"source ./shell.nu; flutter test\"",
-      "analyze": "nu -c \"source ./shell.nu; flutter analyze\"",
-      "build_ios": "nu -c \"source ./shell.nu; build_ios $1\"",
-      "build_android": "nu -c \"source ./shell.nu; build_android $1 $2\"",
-      "shell": "nu --execute \"source ./shell.nu\""
+      "format": "nu -c \"source shell.nu; dart format -l 120\"",
+      "test": "nu -c \"source shell.nu; flutter test\"",
+      "analyze": "nu -c \"source shell.nu; flutter analyze\"",
+      "build_ios": "nu -c \"source shell.nu; build_ios $1\"",
+      "build_android": "nu -c \"source shell.nu; build_android $1 $2\"",
+      "shell": "nu --execute \"source shell.nu\""
     }
   }
 }

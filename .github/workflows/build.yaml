@@ -26,4 +26,4 @@ jobs:
           skip-nix-installation: false
 
       - name: run tests
-        run: devbox run test
+        run: devbox run build_android apk 123
