@@ -24,8 +24,6 @@ jobs:
           enable-cache: true
           refresh-cli:  false
           skip-nix-installation: false
-      - name: fvm install
-        run: devbox run fvm_install
 
       - name: build apk
         run: devbox run build_android apk 123
