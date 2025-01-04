@@ -1,21 +1,21 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
-  "name": "app",
+  "name":    "app",
   "packages": [
     "nushell@0.100.0",
     "temurin-bin-17@latest",
-    "github:mikeborodin/fvm-flake",
-    "firebase-tools@latest"
+    "firebase-tools@latest",
+    "flutter327@latest"
   ],
   "shell": {
     "scripts": {
-      "format": "nu -c \"source shell.nu; dart format -l 120\"",
-      "fvm_install": "nu -c \"source shell.nu; fvm install\"",
-      "test": "nu -c \"source shell.nu; flutter test\"",
-      "analyze": "nu -c \"source shell.nu; flutter analyze\"",
-      "build_ios": "nu -c \"source shell.nu; build_ios $1\"",
+      "format":        "nu -c \"source shell.nu; dart format -l 120\"",
+      "fvm_install":   "nu -c \"source shell.nu; fvm install\"",
+      "test":          "nu -c \"source shell.nu; flutter test\"",
+      "analyze":       "nu -c \"source shell.nu; flutter analyze\"",
+      "build_ios":     "nu -c \"source shell.nu; build_ios $1\"",
       "build_android": "nu -c \"source shell.nu; build_android $1 $2\"",
-      "shell": "nu --execute \"source shell.nu\""
+      "shell":         "nu --execute \"source shell.nu\""
     }
   }
 }

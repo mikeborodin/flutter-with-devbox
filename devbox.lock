@@ -49,6 +49,54 @@
         }
       }
     },
+    "flutter327@latest": {
+      "last_modified": "2024-12-23T21:10:33Z",
+      "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#flutter327",
+      "source": "devbox-search",
+      "version": "3.27.0-0.1.pre-sdk-links",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/917s20b38gycj3rfiabrm854246f5pv8-flutter-wrapped-3.27.0-0.1.pre-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/917s20b38gycj3rfiabrm854246f5pv8-flutter-wrapped-3.27.0-0.1.pre-sdk-links"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qa8glss0bn8m0ghgm4dy1ifbi0d6x4il-flutter-wrapped-3.27.0-0.1.pre-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qa8glss0bn8m0ghgm4dy1ifbi0d6x4il-flutter-wrapped-3.27.0-0.1.pre-sdk-links"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/10vn1mqb8jx2lrk6zfkk7h8pqkgdxqwd-flutter-wrapped-3.27.0-0.1.pre-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/10vn1mqb8jx2lrk6zfkk7h8pqkgdxqwd-flutter-wrapped-3.27.0-0.1.pre-sdk-links"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jlbs6fadhlvacmby8si44vqkj7c0fh0z-flutter-wrapped-3.27.0-0.1.pre-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jlbs6fadhlvacmby8si44vqkj7c0fh0z-flutter-wrapped-3.27.0-0.1.pre-sdk-links"
+        }
+      }
+    },
     "nushell@0.100.0": {
       "last_modified": "2024-12-23T21:10:33Z",
       "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#nushell",

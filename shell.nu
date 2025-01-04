@@ -2,7 +2,7 @@ let javaHome = $"($env.DEVBOX_PROJECT_ROOT)/.devbox/nix/profile/default/Contents
 
 $env.JAVA_HOME = $javaHome
 
-alias flutter = fvm flutter
+# alias flutter = fvm flutter
 # so that it will use JAVA_HOME
 alias build = ./build.nu
 
