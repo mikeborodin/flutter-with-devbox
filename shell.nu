@@ -1,7 +1,5 @@
 let javaHome = $"($env.DEVBOX_PROJECT_ROOT)/.devbox/nix/profile/default/Contents/Home"
-
 $env.JAVA_HOME = $javaHome
-
 
 def build_android [type, buildNumber] {
   (
