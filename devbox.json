@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
-  "name":    "app",
+  "name": "app",
   "packages": [
     "nushell@0.100.0",
     "temurin-bin-17@latest",
@@ -11,13 +11,13 @@
       "nush() { nu -c \"source shell.nu; $1\"; }"
     ],
     "scripts": {
-      "format":        "nush \"dart format -l 120 .\"",
-      "fvm_install":   "nush \"fvm install\"",
-      "test":          "nush \"flutter test\"",
-      "analyze":       "nush \"flutter analyze\"",
-      "build_ios":     "nush \"build_ios $1\"",
+      "format": "nush \"dart format -l 120 .\"",
+      "fvm_install": "nush \"fvm install\"",
+      "test": "nush \"flutter test\"",
+      "analyze": "nush \"flutter analyze\"",
+      "build_ios": "nush \"build_ios $1\"",
       "build_android": "nu -c \"source shell.nu; build_android $1 $2\"",
-      "shell":         "nu --execute \"source shell.nu\""
+      "shell": "nu --execute \"source shell.nu\""
     }
   }
 }
