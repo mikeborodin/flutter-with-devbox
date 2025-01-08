@@ -25,5 +25,5 @@ jobs:
           refresh-cli:  false
           skip-nix-installation: false
 
-      - name: build apk
-        run: devbox run build_android apk 123
+      - name: test
+        run: devbox run test
